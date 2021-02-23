@@ -1,0 +1,30 @@
+#HomeLink
+{
+    display: flex;
+    justify-content: center;
+}
+
+#BlogName
+{
+    text-align: center;
+    width: 13em;
+}
+
+#NavBar
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.NavItem
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.NavIcon
+{
+    width: 5em;
+    height: 5em;
+}

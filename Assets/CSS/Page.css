@@ -1,0 +1,48 @@
+@font-face
+{
+    font-family: "Mazio";
+    src: url("http://localhost/Blog/Src/Fonts/MazioRegular.ttf") format("truetype");
+}
+@font-face
+{
+    font-family: "Mazio-Bold";
+    src: url("http://localhost/Blog/Src/Fonts/MazioBold.ttf") format("truetype");
+}
+@font-face
+{
+    font-family: "Mazio-Italic";
+    src: url("http://localhost/Blog/Src/Fonts/MazioItalic.ttf") format("Truetype");
+}
+@font-face
+{
+    font-family: "Mazio-Bold-Italic";
+    src: url("http://localhost/Blog/Src/Fonts/MazioBoldItalic.ttf") format("Truetype");
+}
+
+
+body
+{
+    background-image: url('http://localhost/Blog/Src/Medias/Images/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Mazio', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', 'sans-serif';
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover:not(#HomeLink)
+{
+    background-color: skyblue;
+}
+
+#Page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
